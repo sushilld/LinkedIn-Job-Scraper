@@ -7,10 +7,12 @@ setup(
   description = 'A simple spam bot for WhatsApp. It can spam a message a given number of times or spam forever. It can be stopped by pressing ctrl.',
   author = 'Sushil Dhakal',
   author_email = 'sushilldhakal25@gmail.com',
-  url = 'https://github.com/sushil3125/Spam-Bot-using-Python',
-  download_url = 'https://github.com/sushil3125/Spam-Bot-using-Python/blob/main/projectSpamBot.exe',
+  url = 'https://github.com/sushilld/LinkedIn-Job-Scraper',
+  download_url = 'https://github.com/sushilld/LinkedIn-Job-Scraper',
   install_requires=[
-          'pyautogui'
+          "pandas==1.5.0",
+          "selenium==4.8.3",
+          "webdriver_manager==3.5.4"
       ],
   classifiers=[ 
     # Specify the Python versions you support here. In particular, ensure
