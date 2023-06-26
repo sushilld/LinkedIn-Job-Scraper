@@ -8,6 +8,14 @@ A Python package to scrape job listings on LinkedIn for a specific job role and 
 To install LinkedIn Job Scraper, run the following command:
 ```pip install scrapeLinkedinJob```
 
+## Usage
+
+``` job_role = "Machine Learning Engineer"
+    scroll_time = 1
+    obj = ScrapeLinkedInJob(job_role, scroll_time)
+    obj.scrape_job()
+```
+
 ## Contributing
 Contributions to LinkedIn Job Scraper are welcome! To contribute, please follow these steps:
 
